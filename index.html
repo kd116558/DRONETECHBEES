@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="iMAGES/DRONE TECH LOGO.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <!--aos animation library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -15,23 +17,28 @@
         <img src="images/DRONE TECH BEES_1_.png" class="logo"></div>
         <nav>
             <ul>
-                <li><a href="">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="">ABOUT</a></li>
                 <li><a href="">SERVICES</a></li>
                 <li><a href="">SUPPORT</a></li>
                 <li><a href="">CONTACT</a></li>
             </ul>
         </nav>
-
-        <a href="" class="loginlink">Logins</a>
+        <div class="btns">
+            <a href="" class="loginlink">Logins</a>
+            <div class="btn">
+                <ion-icon name="menu-outline" class="icon"></ion-icon>
+                <ion-icon name="close-outline" class="icon"></ion-icon>
+            </div>
+        </div>
     </header>
     <main class="main">
 
 
         <div class="banner">
             <div class="welcome">
-                <p>WELCOME TO DRONE TECH BEES</p>
-                <hr class="hr">
+                <p data-aos="fade-up">WELCOME TO DRONE TECH BEES</p>
+                <hr class="hr" data-aos="fade-up">
                 <a href="#main" class="skiptomain"><ion-icon name="arrow-down-outline"></ion-icon></a>
             </div>
         </div>
@@ -46,7 +53,7 @@
                     sapiente ipsa molestiae earum quas amet doloribus cum ullam molestias ea unde sunt sit perspiciatis
                     provident, explicabo vero quidem rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                     unde, magnam natus ducimus amet quis nesciunt facilis vitae harum distinctio reprehenderit
-                    cupiditate? Officiis dolorem, iste impedit sint at repellendus maiores?</div>
+                    cup iditate? Officiis dolorem, iste impedit sint at repellendus maiores?</div>
             </div>
         </section>
         <section class="sec2">
@@ -77,11 +84,52 @@
                     </div>
                 </div>
             </div>
+            <div class="bettery">
+                <h1 class="h1">CONTENT</h1>
+                <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, similique sunt quasi optio
+                    delectus dolores dignissimos ipsam, cupiditate consectetur iure quod incidunt asperiores molestias
+                    dolorem excepturi voluptatum veniam? Illum, aspernatur! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Cum illum animi hic, tempora iste voluptatum nobis mollitia, minima fugiat
+                    architecto exercitationem, aperiam praesentium ratione dolore dolorum adipisci libero dolor
+                    reiciendis?</p>
+            </div>
         </section>
-      
+        <section class="sec3">
+            <h1 class="hedingbox"> CONTENT</h1>
+            <div class="boxes">
+                <div class="boxname"><img src="images/KARAN.jpeg" class="imglogo">
+                    <div class="name">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="boxname"><img src="images/ARKAN RIYASAT.jpg" class="imglogo">
+                    <div class="name">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="boxname"><img src="images/aashu.jpg" class="imglogo">
+                    <div class="name">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="boxname"><img src="images/aashu.jpg" class="imglogo">
+                    <div class="name">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+            </div>
+        </section>
+        <section class="sec4"></section>
     </main>
+    <footer class="footer">
+        <div class="left">
+            © 2025 All rights reserved.
+        </div>
+        <div class="visitercount">
+            Visters :
+        </div>
+    </footer>
 </body>
+<script src="script.js"></script>
+<!--ionicons icons library-->
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!--aos animation library-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
